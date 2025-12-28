@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".SalleActivity">
+
+    <TextView
+        android:id="@+id/tvSalleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Détails de la Salle"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSalleTitle"
+        app:layout_constraintVertical_bias="0.3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/etNomSalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nom de la salle"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Équipements"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <Switch
+                android:id="@+id/switchVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vidéoprojecteur" 
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <CheckBox
+                android:id="@+id/cbClim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Climatisation"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <CheckBox
+                android:id="@+id/cbWifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accès Wi-Fi"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnValider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Valider la réservation" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

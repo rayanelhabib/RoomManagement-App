@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/picbackg">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:text="Already have an account?"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Email Field -->
+    <TextView
+        android:text="Email"
+        android:textColor="#34C3D5"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_height="36dp"
+        android:layout_width="124dp"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password Field -->
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:text="Password"
+        android:textColor="#34C3D5"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="***************"
+        android:inputType="textPassword" />
+
+    <!-- Login Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        app:backgroundTint="@color/blue"
+        app:cornerRadius="20dp" />
+
+    <!-- Registration Link -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="New user? Register now"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#CCCCCC" />
+
+    <!-- Social Media Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="43dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="43dp"
+            android:src="@drawable/github" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="43dp"
+            android:src="@drawable/google" />
+    </LinearLayout>
+
+</LinearLayout>

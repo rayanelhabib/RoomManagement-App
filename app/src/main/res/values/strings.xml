@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tp4FullApp</string>
+    <string-array name="salle_types">
+        <item>TD</item>
+        <item>TP</item>
+        <item>Amphi</item>
+    </string-array>
+</resources>
