@@ -43,28 +43,28 @@ L'application contient les ressources graphiques suivantes :
 
 Voici des captures d'écran montrant le design et les différentes étapes de l'application :
 
-![Page de connexion](assets/PhotoLogin.png)
+<img src="assets/PhotoLogin.png" width="300">
 *Page de connexion*
 
-![Étape 1 - Spinner](assets/Photo_Etape1_activity_spinner0.png)
+<img src="assets/Photo_Etape1_activity_spinner0.png" width="300">
 *Étape 1 avec spinner*
 
-![Étape 2 - Liste 1](assets/Photo_Etape2_activity_list_view0.png)
+<img src="assets/Photo_Etape2_activity_list_view0.png" width="300">
 *Étape 2 - Vue liste 1*
 
-![Étape 2 - Liste 2](assets/Photo_Etape2_activity_list_view1.png)
+<img src="assets/Photo_Etape2_activity_list_view1.png" width="300">
 *Étape 2 - Vue liste 2*
 
-![Étape 2 - Spinner](assets/Photo_Etape2_activity_spinner1.png)
+<img src="assets/Photo_Etape2_activity_spinner1.png" width="300">
 *Étape 2 - Élément spinner*
 
-![Étape 3 - Grille 1](assets/Photo_Etape3_activity_grid_view0.png)
+<img src="assets/Photo_Etape3_activity_grid_view0.png" width="300">
 *Étape 3 - Vue grille 1*
 
-![Étape 3 - Grille 2](assets/Photo_Etape3_activity_grid_view1.png)
+<img src="assets/Photo_Etape3_activity_grid_view1.png" width="300">
 *Étape 3 - Vue grille 2*
 
-![Récapitulatif final](assets/Recaptulation_final.png)
+<img src="assets/Recaptulation_final.png" width="300">
 *Récapitulatif final*
 
 ## Installation
