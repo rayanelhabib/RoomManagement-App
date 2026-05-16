@@ -1,4 +1,4 @@
-# Tp4FullApp
+# Java Mobile App Room Management
 
 ## Description
 Application mobile complète développée dans le cadre du TP5. Cette application permet aux utilisateurs de se connecter avec des identifiants prédéfinis et d'accéder à différentes fonctionnalités comme la gestion des salles.
